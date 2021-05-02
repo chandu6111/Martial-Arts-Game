@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martial Arts</title>
+    <script src='https://code.jquery.com/jquery-2.2.0.min.js'>
+<script src=
+'https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'>
+    </script>
+    <style>
+        ul li{
+            list-style-type:none;
+            margin-bottom: 20px;
+        }
+        .canva{
+            float:right;
+            margin-left:280px;
+        }
+        body{
+	background:url("https://cdn.hipwallpaper.com/i/88/4/3xRNXM.jpg");            
+	background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .but{
+            margin-top:180px;
+        }
+        button{
+            width:150px;
+            margin-left:100px;
+            height:50px;
+            font-size:14px;
+            border: 1px solid black;
+	background: yellow;
+
+        }
+        @media (min-width: 320px) and (max-width: 1023px)
+        {
+            p{
+
+            }
+            .can{
+                margin-left:-70px;
+                float:none;
+                margin-bottom:-100px;
+                margin-top:-50px;
+            }
+            button{
+                margin-left:60px;
+                width:100px;
+                font-size:12px;
+                height:35px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>MARTIAL ARTS GAME</h1>
+    </center>
+    <div class="canva">
+    <canvas id="my-canvas"  width="500" height="500"></canvas>
+    </div>
+    <div class="but">
+        <ul>
+            <li><button id="kick">Kick(ArrowUp) </button></li>
+            <li><button id="punch">Punch(ArrowDown) </button></li>
+            <li> <button id="forward">Forward(ArrowRight) </button></li>
+            <li> <button id="backward">Backward(ArrowLeft)</button></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="main.js" ></script>
+    
+   
+</body>
+</html>
